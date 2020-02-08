@@ -1,0 +1,52 @@
+<!--
+INSTRUCTIONS:
+  1. Create a container. The next following steps will be inside the container.
+
+  2. Create a jumbotron that contains:
+      a. Header with the text "Review Week 1"
+      b. Paragraph with the text "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  4. Create 2 columns in a row. The viewport does not matter, the columns will be equal to each other. 
+      a. The first column: Span with the text "Row 1 Col 1"
+      b. The second column: Span with the text "Row 1 Col 2"
+  
+  5. Create 1 column in a row.
+      a. The column: Span with the text "Row 2 Col 1"
+      b. When the viewport is extra small, stretch the column to 12 columns
+      c. When the viewport is small, stretch the column to 10 columns
+      d. When the viewport is medium, stretch the column to 8 columns
+      e. When the viewport is large, stretch the column to 6 columns
+      f. When the viewport is extra large, stretch the column to 4 columns
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Week 3 workshop</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron jumbotron-fluid bg-primary p-4">
+        <h1 class="text-dark">
+          Review Week 1
+        </h1>
+        <p class="text-body text-light">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col">Row 1 Col 1</div>
+        <div class="col">Row 1 Col 2</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-10 col-md-8 col-lg-6 col-xl-4">
+          Row 2 Col 1
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

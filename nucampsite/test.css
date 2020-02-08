@@ -1,0 +1,54 @@
+/*
+INSTRUCTIONS:
+  1. Create a CSS class for the <h1> element with the following rules:
+        a.) background color of your choice
+        c.) padding of 20px
+        d.) add a border to the bottom:
+              i.)   border thickness of 5px
+              ii.)  border color of your choice
+              iii.) border style of your choice 
+
+  2. Create a custom class and apply it to the first paragraph
+      a.) font family name Trebuchet MS
+      b.) font size small
+
+  3. Create a custom class and apply it to the first and second paragraph
+      a.) text color of your choice
+      b.) center the text
+
+  4. Create a CSS class for the <span> inside of the third paragraph
+      a.) background color of yellow
+     DO NOT CREATE A CUSTOM CLASS AND APPLY IT TO THE SPAN.
+
+REFERENCES:
+https://www.w3schools.com/css/css_background.asp
+https://www.w3schools.com/css/css_colors.asp
+https://www.w3schools.com/css/css_padding.asp
+https://www.w3schools.com/css/css_border.asp
+https://www.w3schools.com/cssref/pr_font_font-family.asp
+https://www.w3schools.com/cssref/pr_font_font-size.asp
+https://www.w3schools.com/cssref/pr_text_color.asp
+https://www.w3schools.com/cssref/pr_text_text-align.asp
+*/
+
+h1 {
+    background: cornflowerblue;
+    padding: 20px;
+    border-bottom-width: 5px;
+    border-bottom-color: indianred;
+    border-bottom-style: dotted;
+}
+
+.paragraphStyle1 {
+    font-family: 'Trebuchet MS';
+    font-size: small;
+}
+
+.paragraphStyle2 {
+    color: slateblue;
+    text-align: center;
+}
+
+#thirdParagraph span {
+    background-color: yellow;
+}
