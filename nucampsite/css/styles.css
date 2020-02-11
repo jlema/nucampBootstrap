@@ -34,6 +34,12 @@ header h2 {
   min-height: 200px;
 }
 
-.navbar {
-  background-color: #901CAD;
+.navbar-dark {
+  background-color: #901cad;
+}
+
+.tab-content {
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 10px;
 }
